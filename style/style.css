@@ -373,6 +373,19 @@ color: #fff;
     letter-spacing: 1rem;
     cursor: pointer;
 }
+
+#status {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    background-color: #e41c6f;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 /* End of Section 4 */
 
 /* Section 5 */
@@ -466,6 +479,10 @@ color: #fff;
 
     .copyright {
         width: 70%;
+    }
+
+    #status {
+        font-size: 70%;
     }
 }
 
