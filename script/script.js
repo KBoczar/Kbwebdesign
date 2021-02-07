@@ -47,16 +47,18 @@ mainFn();
     // get the form elements defined in your form HTML above
     
     var form = document.getElementById("my-form");
-    var status = document.getElementById("status");
+    var status = document.getElementById("errmessage");
 
     // Success and Error functions for after the form is submitted
     
     function success() {
       form.reset();
+      status.classList.add('status');
       status.innerText = "Thanks!";
     }
 
     function error() {
+      status.classList.add('status');
       status.innerText = "Oops! There was a problem.";
     }
 

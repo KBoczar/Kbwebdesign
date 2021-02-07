@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{SERVER_PORT} !^443$ [OR]
+RewriteCond %{HTTP_HOST} !^kbwebdesign\.pl$ [NC] 
+RewriteRule ^(.*)$ https://kbwebdesign\.pl/$1 [R=301,L]
