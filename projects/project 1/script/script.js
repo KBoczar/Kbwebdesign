@@ -15,4 +15,4 @@ if( i >icons.length){
 }else{
     icon.nextElementSibling.classList.add('change');
 }
-},4000)      
+},2000)      
